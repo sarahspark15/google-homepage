@@ -1,0 +1,10 @@
+.menu-container {
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo-container {
+    align-items: center;
+    justify-content: center;
+}
