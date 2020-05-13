@@ -1,0 +1,10 @@
+body {
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+img {
+    display: inline-block;
+    align-items: center;
+}
+
