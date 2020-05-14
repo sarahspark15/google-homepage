@@ -4,10 +4,10 @@ body {
 }
 
 .container {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+  text-align:center;
+  width:100%;
+  height:auto;
+  margin:0 auto;
   }
 
 .logo-container {
@@ -36,6 +36,7 @@ body {
   }
 
  input {
+   float: center;
   width: 600px;
   height: 40px;
   border: 1px solid #E8E8E8;
@@ -45,12 +46,61 @@ body {
 }
 
 button {
-    background-color:#f2f2f2;
+  background-color:#f2f2f2;
   border: none;
   padding: 15px;
-  margin: 5px;
+  margin-left: auto;
+  margin-bottom: 15px;
   color: #757575;
   font-size: 10pt;
   font: 1.1em;
   border-radius: 5px;
+  flex-direction: row;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.footer {
+  background: #f2f2f2;
+  padding: 10px;
+  position: fixed; 
+  width: 100%;
+  margin-top: 250px;
+  font-size: 14px; 
+  left: -5px; 
+  border: 1px solid #DEDDE0;
+}
+
+
+.footer-left {
+  float: left;
+
+}
+
+.footer-right {
+  float: right;
+  margin-right: 15px;
+}
+
+.footer-left a {
+  padding: 14px 16px;
+}
+
+.footer-right a {
+  padding: 14px 16px;
+
+}
+
+.footer a{
+  color: #757575;
+
+}
+
+a:hover {
+  text-decoration: underline; 
 }
