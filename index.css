@@ -3,8 +3,54 @@ body {
     font-family: arial,sans-serif;
 }
 
-img {
+.container {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+.logo-container {
+    padding-top: 160px;
+    padding-bottom: 5px;
     display: inline-block;
     align-items: center;
 }
 
+
+  .header-left a {
+      float: left;
+      text-align: center;
+      padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+ 
+  }
+
+  .header-right a {
+      float: right;  
+       text-align: center;
+      padding: 14px 16px;
+    text-decoration: none;
+    color: black; 
+  }
+
+ input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #E8E8E8;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+button {
+    background-color:#f2f2f2;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  color: #757575;
+  font-size: 10pt;
+  font: 1.1em;
+  border-radius: 5px;
+}
